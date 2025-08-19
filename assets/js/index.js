@@ -29,7 +29,7 @@ $(function () {
   $('.slider').slick({
       autoplay: true,
       autoplaySpeed: 0,
-      speed: 8000,
+      speed: 9000,
       arrows: false,
       swipe: false,
       slidesToShow: 3,
