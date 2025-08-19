@@ -25,20 +25,18 @@ AOS.init({
 });
 // AOS JS End
 
+$(function () {
+  $('.slider').slick({
+      autoplay: true,
+      autoplaySpeed: 0,
+      speed: 8000,
+      arrows: false,
+      swipe: false,
+      slidesToShow: 3,
+      cssEase: 'linear',
+      pauseOnFocus: false,
+      pauseOnHover: false,
+      pauseOnHover:true,
 
-// Slider JS Start
-$('.single_item_slider').slick({
-  dots: false,
-  infinite: true,
-  speed: 300,
-  autoplay: true,
-  prevArrow: `<button class="slick-prev custom-arrow custom-prev" aria-label="Previous slide">
-				 <svg  viewBox="0 0 32 72" xmlns="http://www.w3.org/2000/svg"><path stroke="#ffc723" stroke-width="1.5" d="M31 71L1 35 31 1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-				</button>`,
-  nextArrow: `<button class="slick-next custom-arrow custom-next" aria-label="Next slide">
-				 <svg  viewBox="0 0 32 72" xmlns="http://www.w3.org/2000/svg"><path stroke="#ffc723" stroke-width="1.5" d="M1 71l30-36L1 1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-				</button>`
+  });
 });
-// Slider JS End
-
-
