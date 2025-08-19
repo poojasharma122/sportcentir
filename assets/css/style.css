@@ -251,6 +251,7 @@ img {
     letter-spacing: 0.3px;
     text-transform: uppercase;
     font-weight: 500;
+    line-height: 1.4;
 }
 
 span.theme {
@@ -829,3 +830,136 @@ border: 1px solid #adff00;
 }
 
 /* Newsletter CSS End */
+
+
+/* footer start  */
+.site-footer {
+    color: #fff;
+    background-color: rgba(0 0 0/90%);
+    background-blend-mode: multiply;
+}
+
+.footer-logo p {
+    font-size: 1.2rem;
+    color: #ffffffdb;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer-logo a {
+    background-image: url("../images/logo.svg");
+    width: 15.625rem;
+    height: 3.75rem;
+}
+
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.9375rem;
+}
+
+.footer-top h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1.875rem;
+}
+
+.footer-links {
+    padding-left: 3.75rem;
+    border-left: 1px solid rgb(173 255 0/50%);
+}
+
+.footer-contact {
+    padding-left: 3.125rem;
+    border-left: 1px solid rgb(173 255 0/50%);
+}
+
+.footer-links li a,
+.footer-contact li {
+    color: #ffffffdb;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.24px;
+    margin-bottom: 0.9375rem;
+    transition: all 0.2s linear;
+}
+
+.footer-links li a:hover,
+.footer-contact li:hover {
+    color: #adff00;
+}
+
+.footer-contact li i {
+    margin-right: 0.625rem;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(173 255 0/60%);
+    padding-top: 2.1875rem;
+    margin-top: 2.1875rem;
+}
+
+.footer-bottom p {
+    color: #fff;
+}
+
+.social-icons ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 10.375rem;
+}
+
+.social-icons li a {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.375rem;
+    transition: all 0.2s linear;
+    padding: 0.625rem;
+}
+
+.social-icons li a:hover {
+    transform: translateY(-4px);
+}
+
+.footer-top h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #adff00;
+}
+
+.ssl_logo {
+    height: 3.75rem;
+    width: 8.75rem;
+}
+
+.ssl_logo_inner {
+    height: 100%;
+    width: 100%;
+}
+
+.social-icons li a svg {
+    height: 100%;
+    width: 100%;
+    fill: #fff;
+}
+
+.footer-logo h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    max-width: 20.625rem;
+    line-height: 1.3;
+}
+
+/* footer end  */
