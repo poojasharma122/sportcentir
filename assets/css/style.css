@@ -786,3 +786,46 @@ border: 1px solid #adff00;
 
 
 /* Home Featured CSS End */
+
+
+/* Newsletter CSS Start */
+.newsletter-section .row {
+    max-width: 43rem;
+}
+
+.newsletter-wrap input {
+    width: 80%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 0.6235rem;
+    color: #fff;
+}
+
+.newsletter-wrap input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.newsletter-wrap input:focus::placeholder {
+    color: #adff00;
+}
+
+.newsletter-wrap input:focus {
+    border-bottom: 1px solid #adff00;
+}
+.newsletter-wrap input::-ms-input-placeholder {
+    color: #fff;
+}
+
+.newsletter-wrap p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.newsletter-wrap h3 {
+    line-height: 1.3;
+}
+
+/* Newsletter CSS End */
