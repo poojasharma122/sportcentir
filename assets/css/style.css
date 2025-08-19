@@ -230,16 +230,16 @@ img {
 }
 
 ::-webkit-scrollbar-track {
-    background: #102b2a;
+    background: #000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #c09342;
+    background: #adff00;
     border-radius: 0.625rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #c09342;
+    background: #adff00;
 }
 
 /* Website Scrollbar CSS  */
