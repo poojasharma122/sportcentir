@@ -375,7 +375,7 @@ span.theme {
     background-size: contain;
     background-repeat: no-repeat;
     height: 3.75rem;
-    width: 14.75rem;
+    width: 18.75rem;
 }
 
 .menu-toggle-btn {
@@ -847,9 +847,7 @@ border: 1px solid #adff00;
 }
 
 .footer-logo a {
-    background-image: url("../images/logo.svg");
-    width: 15.625rem;
-    height: 3.75rem;
+    margin-bottom: 1.25rem;
 }
 
 
@@ -862,6 +860,9 @@ border: 1px solid #adff00;
 .footer-top h5 {
     font-size: 1.25rem;
     margin-bottom: 1.875rem;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: uppercase;
 }
 
 .footer-links {
@@ -938,6 +939,7 @@ border: 1px solid #adff00;
     font-weight: 500;
     margin-bottom: 1.5rem;
     color: #adff00;
+    text-transform: uppercase;
 }
 
 .ssl_logo {
