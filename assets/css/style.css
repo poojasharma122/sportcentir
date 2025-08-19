@@ -338,16 +338,14 @@ span.theme {
     left: 0;
     right: 0;
     width: 100%;
-    margin: 0 auto;
     z-index: 9999;
     transition: all 0.3s ease-in-out;
-    padding: 0.625rem 0px;
-    background-color: transparent;
-    backdrop-filter: blur(10px);
+    padding: 1.875rem 0px 0.625rem 0;
 }
 
 .sticky-header.fixed_header {
     background-color: #10130f;
+    padding: 0.625em 0;
 }
 
 .navigation-bar {
@@ -461,6 +459,8 @@ span.theme {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 1.25rem;
+    border-radius: 1.875rem;
 }
 
 
