@@ -602,7 +602,7 @@ hr {
 
 /* Home Why Us Card CSS End */
 
-
+/* Image Text CSS Start */
 .behind_bar_inner {
     max-width: 1100px;
     margin: 0 auto;
@@ -635,10 +635,10 @@ hr {
     line-height: 1.5;
     color: #fff;
 }
+/* Image Text CSS End */
 
 
-
-
+/* Home Category Cards CSS Start */
 .slider_img_outer {
     height: 20rem;
     width: 100%;
@@ -679,8 +679,20 @@ border: 1px solid #adff00;
     overflow: hidden;
 }
 
+/* Home Category Cards CSS End */
 
 
+/* Home Start Journey CSS Start */
+.home_start_journey_wrap {
+    padding: 6rem 2rem;
+    border-radius: 1.875rem;
+    background-color: rgba(0 0 0/70%);
+    background-blend-mode: multiply;
+}
+.home_start_journey_wrap p {
+    font-size: 1.5rem;
+}
+/* Home Start Journey CSS End */
 
 /* Home Why US CSS Start */
 .service-item {
