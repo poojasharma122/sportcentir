@@ -206,6 +206,12 @@
 .accordion-button, .accordion-button:not(.collapsed) {
     font-size: 1.3rem;
 }
+.banner.sub_banner.footer_banner {
+    height: 35rem;
+}
+.footer-pages-wrap {
+    padding: 1.25rem 0.625rem;
+}
 }
 
 
@@ -312,5 +318,11 @@
 }
 .faq_img_outer {
     height: 25rem;
+}
+.banner.sub_banner.footer_banner {
+    height: 30rem;
+}
+.footer-pages-content-grp h3 {
+    font-size: 1.5rem;
 }
 }
