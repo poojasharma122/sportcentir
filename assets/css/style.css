@@ -1389,15 +1389,14 @@ hr {
     line-height: 1.2rem;
     margin-bottom: 0.9375rem;
     padding-left: 1.875rem;
+    line-height: 1.4;
+    margin-left: 1.25rem;
+    list-style-type: disc;
+}
+.about_img_txt_content ul li::marker {
+    color: #adff00;
 }
 
-.about_img_txt_content ul li::before {
-    position: absolute;
-    content: ".";
-    font-size: 3.75rem;
-    left: -1px;
-    top: -18px;
-}
 
 .about_img_txt_content p {
     color: #fff;
