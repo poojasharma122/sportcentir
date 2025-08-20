@@ -456,7 +456,7 @@ span.theme {
 /* Banner CSS Start */
 .banner {
     height: 46.875rem;
-    background-color: rgba(0 0 0/40%);
+    background-color: rgba(0 0 0/70%);
     background-blend-mode: multiply;
     display: flex;
     justify-content: flex-start;
@@ -468,7 +468,9 @@ span.theme {
     border-radius: 1.875rem;
 }
 
-
+.banner.home_banner {
+    background-position: top;
+}
 .banner_wrap {
     height: 100%;
     margin: 0 auto;
