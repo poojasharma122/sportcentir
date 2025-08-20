@@ -268,7 +268,12 @@
     .banner.sub_banner {
     height: 45.875rem;
 }
-
+.blog_page_card .what_we_offer_img_outer {
+    height: 25rem;
+}
+.blog_page_card .what_we_offer_content h5 {
+    font-size: 1.1rem;
+}
 }
 
 @media screen and (max-width:480px) {
@@ -324,5 +329,11 @@
 }
 .footer-pages-content-grp h3 {
     font-size: 1.5rem;
+}
+.blog_page_card .what_we_offer_img_outer {
+    height: 20rem;
+}
+.blog_page_card .what_we_offer_content h5 {
+    font-size: 1rem;
 }
 }
