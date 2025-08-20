@@ -357,6 +357,7 @@ span.theme {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding: 0 0.625rem;
 }
 
 .brand-container {
@@ -601,7 +602,7 @@ hr {
 
 /* Image Text CSS Start */
 .behind_bar_inner {
-    max-width: 1100px;
+    max-width: 68.75rem;
     margin: 0 auto;
 }
 
@@ -649,7 +650,7 @@ hr {
 
 .slick-track {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     height: 100% !important;
 }
 
@@ -660,7 +661,7 @@ hr {
 
 .slider_content p {
     font-size: 0.9375rem;
-    min-height: 100px;
+    min-height: 6.25rem;
 }
 
 .slider_content h3 {
@@ -678,7 +679,7 @@ hr {
 }
 
 .slick-list.draggable {
-    min-height: 640px;
+    min-height: 40rem;
 }
 
 .hide {
@@ -803,7 +804,7 @@ hr {
     font-weight: 500;
     width: 100%;
     font-size: 1.1rem;
-    min-height: 80px;
+    min-height: 5rem;
 }
 
 
@@ -1023,7 +1024,7 @@ hr {
 .pages_brand_sec th,
 .pages_brand_sec td {
     border: 1px solid #000;
-    padding: 10px;
+    padding: 0.625rem;
     text-align: center;
 }
 
@@ -1049,7 +1050,7 @@ hr {
 
 .pages_brand_sec .stars {
     color: gold;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .pages_brand_sec .free {
@@ -1066,38 +1067,48 @@ hr {
     margin-left: 1.2rem;
     list-style-type: disc;
 }
-.pages_key_wrap ul li p{
-font-size: 1.1rem;
+
+.pages_key_wrap ul li p {
+    font-size: 1.1rem;
 }
 
-.pages_key_wrap ul li::marker{
-color: #adff00;
+.pages_key_wrap ul li::marker {
+    color: #adff00;
 }
-.pages_our_picks_sec .service-item p ,.feature_deep_dive .service-item p {
+
+.pages_our_picks_sec .service-item p,
+.feature_deep_dive .service-item p {
     color: #fff;
     margin-top: 0.9375rem;
 }
-.pages_our_picks_sec .service-item:hover p,.feature_deep_dive .service-item:hover p {
+
+.pages_our_picks_sec .service-item:hover p,
+.feature_deep_dive .service-item:hover p {
     color: #000;
 }
+
 .platform_review_content {
     padding: 3rem 0;
 }
-.platform_img_outer{
+
+.platform_img_outer {
     height: 100%;
     width: 100%;
     border-radius: 1.875rem;
 }
-.platform_img{
+
+.platform_img {
     height: 100%;
     width: 100%;
 }
+
 .platform_review_cards {
-box-shadow: #adff00 0px 3px 8px;
+    box-shadow: #adff00 0px 3px 8px;
     margin-bottom: 3rem;
     border-radius: 1.875rem;
     padding: 2rem 1.25rem;
 }
+
 .accordion-button,
 .accordion-button:not(.collapsed) {
     background: #adff00;
@@ -1114,7 +1125,7 @@ box-shadow: #adff00 0px 3px 8px;
 .faq_img_outer {
     height: 100%;
     width: 100%;
-border-radius: 1.875rem;
+    border-radius: 1.875rem;
 
 }
 
@@ -1126,114 +1137,121 @@ border-radius: 1.875rem;
 .faq_img_outer:hover .common_overlay {
     transform: translate(-50%, -50%) scale(1);
 }
+
 .accordion-item {
     margin-bottom: 0.625rem;
     border: 1px solid #000;
 }
+
 .accordion-body p {
     font-size: 1rem;
     font-weight: 500;
 }
+
 /* NFL CSS End */
 
 /* Footer Pages CSS Start */
 .banner.footer_banner {
     height: 35.875rem;
 }
+
 .banner.footer_banner .banner_wrap {
     margin-top: 0;
 }
+
 .footer-pages-wrap {
-	max-width: 81.25rem;
-	margin: 0 auto;
-	border-radius: 1.875rem;
-	position: relative;
-	z-index: 99;
-	padding: 1.875rem;
+    max-width: 81.25rem;
+    margin: 0 auto;
+    border-radius: 1.875rem;
+    position: relative;
+    z-index: 99;
+    padding: 1.875rem;
 }
 
 .footer-pages-content-grp {
-	margin-bottom: 1.2rem;
-	border-radius: 0.625rem;
+    margin-bottom: 1.2rem;
+    border-radius: 0.625rem;
 }
 
 .footer-pages-content-grp:last-child {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .footer-pages-content-grp h3 {
-	font-size: 1.7rem;
-	margin-bottom: 0.9375rem;
-	color: #adff00;
-	line-height: 1.4;
+    font-size: 1.7rem;
+    margin-bottom: 0.9375rem;
+    color: #adff00;
+    line-height: 1.4;
 }
 
 .footer-pages-content-grp strong {
-	font-size: 1.125rem;
+    font-size: 1.125rem;
 }
 
 .footer-pages-content-grp p {
-	font-size: 1.0625rem;
-	margin-bottom: 0.5rem;
-	color: #fff;
+    font-size: 1.0625rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
 }
 
 .footer-pages-content-grp ul {
-	list-style: none;
-	padding-left: 1.25rem;
+    list-style: none;
+    padding-left: 1.25rem;
 }
 
 .footer-pages-content-grp ul li {
-	list-style-type: disc;
-	font-size: 1.0625rem;
-	margin-bottom: 0.5rem;
-	color: #fff;
-	font-weight: 500;
+    list-style-type: disc;
+    font-size: 1.0625rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-weight: 500;
 }
 
 .footer-pages-content-grp ul li::marker {
-	color: #adff00;
+    color: #adff00;
 }
 
 .footer-pages-content-grp p a {
-	display: inline-block;
-	transition: 0.4s all ease-in-out;
-	text-underline-offset: 0.25rem;
-	font-weight: 600;
+    display: inline-block;
+    transition: 0.4s all ease-in-out;
+    text-underline-offset: 0.25rem;
+    font-weight: 600;
 }
 
 .footer-pages-content-grp p a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .footer-pages-content-grp.ft_diff {
-	background: #191919;
-	width: max-content;
-	padding: 1.25rem;
+    background: #191919;
+    width: max-content;
+    padding: 1.25rem;
 }
 
 .footer-pages-content-grp.ft_diff p {
-	color: #fff;
+    color: #fff;
 }
 
 .footer-pages-content-grp a {
-	color: #adff00;
+    color: #adff00;
 }
+
 /* Footer Pages CSS End */
 
 /* Contact CSS Start */
 
 .contact-info-box {
     background: #fff;
-    padding: 20px 25px;
+    padding: 1.25rem 1.5625rem;
     border-left: 5px solid #adff00;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     box-shadow: 0 3px 10px rgb(0 0 0 / 41%);
+    border-radius: 1.875rem;
 }
 
 .contact-info-box i {
     color: #adff00;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 .contact-info-box a {
@@ -1247,22 +1265,22 @@ border-radius: 1.875rem;
 
 
 .contact-info-box svg {
-    width: 25px;
-    height: 25px;
+    width: 1.5625rem;
+    height: 1.5625rem;
 }
 
 .left_section {
     box-shadow: #adff00 0px 3px 8px;
-    padding: 20px;
-    border-radius: 15px;
+    padding: 1.25rem;
+    border-radius: 1.875rem;
     height: 100%;
     background: #fff;
 }
 
 .right_section {
     box-shadow: #adff00 0px 3px 8px;
-    padding: 20px;
-    border-radius: 15px;
+    padding: 1.25rem;
+    border-radius: 1.875rem;
     height: 100%;
     background: #fff;
 }
@@ -1273,8 +1291,8 @@ border-radius: 1.875rem;
 
 .second_heading h5 {
     color: #000;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 1.5625rem;
+    line-height: 1.2;
 }
 
 .right_section p {
@@ -1305,7 +1323,7 @@ border-radius: 1.875rem;
 
 .after_banner_text {
     border: 1px solid #fff;
-    padding: 20px;
+    padding: 1.25rem;
     box-shadow: #adff00 1.95px 1.95px 2.6px;
     transition: all 0.3s ease-in-out;
     height: 100%;
@@ -1327,12 +1345,12 @@ border-radius: 1.875rem;
 .about_img_txt_content h2 {
     font-size: 2rem;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     line-height: 2rem;
 
 }
 
-.about_img_txt_content{
+.about_img_txt_content {
     height: 100%;
     padding: 5rem 2rem;
 }
@@ -1342,14 +1360,14 @@ border-radius: 1.875rem;
     color: #fff;
     font-size: 1.2rem;
     line-height: 1.2rem;
-    margin-bottom: 15px;
-    padding-left: 30px;
+    margin-bottom: 0.9375rem;
+    padding-left: 1.875rem;
 }
 
 .about_img_txt_content ul li::before {
     position: absolute;
     content: ".";
-    font-size: 60px;
+    font-size: 3.75rem;
     left: -1px;
     top: -18px;
 }
@@ -1359,33 +1377,37 @@ border-radius: 1.875rem;
     font-size: 1.2rem;
     line-height: 1.5rem;
 }
+
 /* About CSS End */
-  
-  /* blog page css start */
+
+/* blog page css start */
 
 
-  .img_txt_content h2 {
+.img_txt_content h2 {
     color: #fff;
     font-size: 2rem;
     line-height: 2rem;
 }
 
-  /* Blog Page CSS Start */
-.blog_page_card{
+/* Blog Page CSS Start */
+.blog_page_card {
     display: block;
 }
+
 .blog_page_cards_sec .row {
-    max-width: 1100px;
+    max-width: 68.75rem;
     margin: 0 auto;
 }
+
 .blog_page_card .what_we_offer_content h5 {
     color: #fff;
     font-weight: 500;
     letter-spacing: 1px;
     font-family: "Inter", sans-serif;
 }
+
 .home_what_we_offer_card.blog_page_card::before {
-        background: #fff;
+    background: #fff;
 }
 
 .blog_page_card .what_we_offer_img_outer {
@@ -1441,7 +1463,8 @@ border-radius: 1.875rem;
     position: absolute;
     width: 50%;
     height: 50%;
-    background: rgb(173 255 0 / 0.2);;
+    background: rgb(173 255 0 / 0.2);
+    ;
     transition: transform 0.4s ease;
     z-index: 2;
 }
@@ -1485,4 +1508,5 @@ border-radius: 1.875rem;
     transition: transform .5s ease;
     border-radius: 1.875rem;
 }
+
 /* Blog Page CSS End */
