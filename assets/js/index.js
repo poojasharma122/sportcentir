@@ -37,6 +37,25 @@ $(function () {
       pauseOnFocus: false,
       pauseOnHover: false,
       pauseOnHover:true,
-
+  responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        arrows: false,
+        centerMode: false,
+        centerPadding: '0',
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        arrows: false,
+        centerMode: false,
+        centerPadding: '0',
+        slidesToShow: 1,
+      }
+    },
+  ]
   });
 });
