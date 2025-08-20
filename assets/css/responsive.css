@@ -33,7 +33,7 @@
         line-height: 1.4;
     }
   .sport-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -181,9 +181,7 @@
     .img_txt_content {
         padding: 2rem 0 0 0;
     }
-  .sport-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
     .image_txt_img_outer {
         height: 25rem;
     }
@@ -296,6 +294,9 @@
 .blog_desc h2 {
     font-size: 1.6rem;
 }
+  .sport-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width:480px) {
