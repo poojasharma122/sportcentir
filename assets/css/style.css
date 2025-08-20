@@ -266,9 +266,6 @@ span.theme {
     background-color: #000;
 }
 
-.bg_light {
-    background-color: #f5f5f7;
-}
 
 .text_white {
     color: #fff;
@@ -1076,11 +1073,11 @@ font-size: 1.1rem;
 .pages_key_wrap ul li::marker{
 color: #adff00;
 }
-.pages_our_picks_sec .service-item p {
+.pages_our_picks_sec .service-item p ,.feature_deep_dive .service-item p {
     color: #fff;
     margin-top: 0.9375rem;
 }
-.pages_our_picks_sec .service-item:hover p {
+.pages_our_picks_sec .service-item:hover p,.feature_deep_dive .service-item:hover p {
     color: #000;
 }
 .platform_review_content {
@@ -1100,5 +1097,41 @@ box-shadow: #adff00 0px 3px 8px;
     margin-bottom: 3rem;
     border-radius: 1.875rem;
     padding: 2rem 1.25rem;
+}
+.accordion-button,
+.accordion-button:not(.collapsed) {
+    background: #adff00;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+
+.faq_img_outer {
+    height: 100%;
+    width: 100%;
+border-radius: 1.875rem;
+
+}
+
+.faq_img {
+    height: 100%;
+    width: 100%;
+}
+
+.faq_img_outer:hover .common_overlay {
+    transform: translate(-50%, -50%) scale(1);
+}
+.accordion-item {
+    margin-bottom: 0.625rem;
+    border: 1px solid #000;
+}
+.accordion-body p {
+    font-size: 1rem;
+    font-weight: 500;
 }
 /* NFL CSS End */
