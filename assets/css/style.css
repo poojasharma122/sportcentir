@@ -1542,20 +1542,6 @@ hr {
   color: #fff;
 }
 
-.browse-sport h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  margin-bottom: 10px;
-  color: #fff;
-}
-
-.browse-sport .subtitle {
-  text-align: center;
-  color: #fff;
-  margin-bottom: 40px;
-}
-
 
 .sport-grid {
   display: grid;
@@ -1574,7 +1560,9 @@ hr {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
+.blog_why_us .service-item h4 {
+    font-size: 1.1rem;
+}
 
 .sport-card {
   background: #000;
@@ -1590,7 +1578,7 @@ hr {
 
 .sport-card img {
   width: 100%;
-  height: 180px;
+  height:18.75rem;
   object-fit: cover;
   display: block;
 }
