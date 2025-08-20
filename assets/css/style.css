@@ -999,6 +999,7 @@ hr {
 /* NFL CSS Start */
 .banner.sub_banner .banner_content h1 {
     font-size: 2.5rem;
+    max-width: 50.625rem;
 }
 
 .banner.sub_banner .banner_content p {

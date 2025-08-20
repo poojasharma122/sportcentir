@@ -11,6 +11,10 @@
     .service-item h4 {
         font-size: 1.2rem;
     }
+    .banner.sub_banner .banner_content h1 {
+    font-size: 2.5rem;
+    max-width: 50.625rem;
+}
 }
 
 
@@ -95,8 +99,16 @@
     .img_txt_content h3 {
         font-size: 1.8rem;
     }
-
-
+.platform_img_outer {
+    height: 25rem;
+}
+.platform_review_content {
+    padding: 2rem 0 0 0;
+}
+.faq_img_outer {
+    height: 25rem;
+    margin-bottom: 1.5625rem;
+}
 }
 
 @media (max-width: 767px) {
@@ -182,6 +194,18 @@
         padding-top: 2rem !important;
         padding-bottom: 2rem !important;
     }
+    .pages_brand_wrap {
+    overflow-x: scroll;
+}
+.pages_brand_sec table {
+    min-width: 50rem;
+}
+.platform_img_outer {
+    height: 20rem;
+}
+.accordion-button, .accordion-button:not(.collapsed) {
+    font-size: 1.3rem;
+}
 }
 
 
@@ -235,6 +259,10 @@
     .newsletter-wrap p {
         font-size: 1.1rem;
     }
+    .banner.sub_banner {
+    height: 45.875rem;
+}
+
 }
 
 @media screen and (max-width:480px) {
@@ -273,4 +301,16 @@
     .home_featured_img_outer {
         height: 20rem;
     }
+    .banner.sub_banner .banner_content h1 {
+    font-size: 1.7rem;
+}
+.pages_key_wrap ul li p {
+    font-size: 1rem;
+}
+.accordion-button, .accordion-button:not(.collapsed) {
+    font-size: 1.2rem;
+}
+.faq_img_outer {
+    height: 25rem;
+}
 }
