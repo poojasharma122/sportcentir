@@ -357,7 +357,7 @@ span.theme {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 0 0.625rem;
+    padding: 0 0.9375rem;
 }
 
 .brand-container {
@@ -378,8 +378,8 @@ span.theme {
 
 .menu-toggle-btn {
     display: none;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     text-align: right;
     cursor: pointer;
     margin: auto 0;
@@ -1239,7 +1239,13 @@ hr {
 /* Footer Pages CSS End */
 
 /* Contact CSS Start */
-
+.right_section .butn {
+    color: #000;
+    border-color: #000;
+}
+.right_section .butn:hover {
+    border-color: #adff00;
+}
 .contact-info-box {
     background: #fff;
     padding: 1.25rem 1.5625rem;

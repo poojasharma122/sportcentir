@@ -21,22 +21,22 @@
 }
 
 @media (max-width: 991px) {
-    .navigation-menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        padding: 50px;
-        background-color: #102b2a;
-        transform: translateX(100%);
-        transition: all 0.3s linear;
-        z-index: 100;
-        color: #fff;
-        flex-direction: column;
-        justify-content: center;
-        overflow: hidden;
-    }
+.navigation-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-color: #10130f;
+    transform: translateX(100%);
+    transition: all 0.3s linear;
+    z-index: 100;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
 
     .menuToggle .navigation-menu {
         transform: translateX(0);
@@ -60,8 +60,8 @@
         text-align: end;
         z-index: 55;
         font-size: 21px;
-        height: 2.5rem;
-        width: 2.5rem;
+        height: 2rem;
+        width: 2rem;
     }
 
     .footer-logo a {
