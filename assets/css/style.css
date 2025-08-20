@@ -1076,4 +1076,29 @@ font-size: 1.1rem;
 .pages_key_wrap ul li::marker{
 color: #adff00;
 }
+.pages_our_picks_sec .service-item p {
+    color: #fff;
+    margin-top: 0.9375rem;
+}
+.pages_our_picks_sec .service-item:hover p {
+    color: #000;
+}
+.platform_review_content {
+    padding: 3rem 0;
+}
+.platform_img_outer{
+    height: 100%;
+    width: 100%;
+    border-radius: 1.875rem;
+}
+.platform_img{
+    height: 100%;
+    width: 100%;
+}
+.platform_review_cards {
+box-shadow: #adff00 0px 3px 8px;
+    margin-bottom: 3rem;
+    border-radius: 1.875rem;
+    padding: 2rem 1.25rem;
+}
 /* NFL CSS End */
