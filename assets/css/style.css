@@ -1135,3 +1135,88 @@ border-radius: 1.875rem;
     font-weight: 500;
 }
 /* NFL CSS End */
+
+/* Footer Pages CSS Start */
+.banner.footer_banner {
+    height: 35.875rem;
+}
+.banner.footer_banner .banner_wrap {
+    margin-top: 0;
+}
+.footer-pages-wrap {
+	max-width: 81.25rem;
+	margin: 0 auto;
+	border-radius: 1.875rem;
+	position: relative;
+	z-index: 99;
+	padding: 1.875rem;
+}
+
+.footer-pages-content-grp {
+	margin-bottom: 1.2rem;
+	border-radius: 0.625rem;
+}
+
+.footer-pages-content-grp:last-child {
+	margin-bottom: 0;
+}
+
+.footer-pages-content-grp h3 {
+	font-size: 1.7rem;
+	margin-bottom: 0.9375rem;
+	color: #adff00;
+	line-height: 1.4;
+}
+
+.footer-pages-content-grp strong {
+	font-size: 1.125rem;
+}
+
+.footer-pages-content-grp p {
+	font-size: 1.0625rem;
+	margin-bottom: 0.5rem;
+	color: #fff;
+}
+
+.footer-pages-content-grp ul {
+	list-style: none;
+	padding-left: 1.25rem;
+}
+
+.footer-pages-content-grp ul li {
+	list-style-type: disc;
+	font-size: 1.0625rem;
+	margin-bottom: 0.5rem;
+	color: #fff;
+	font-weight: 500;
+}
+
+.footer-pages-content-grp ul li::marker {
+	color: #adff00;
+}
+
+.footer-pages-content-grp p a {
+	display: inline-block;
+	transition: 0.4s all ease-in-out;
+	text-underline-offset: 0.25rem;
+	font-weight: 600;
+}
+
+.footer-pages-content-grp p a:hover {
+	text-decoration: underline;
+}
+
+.footer-pages-content-grp.ft_diff {
+	background: #191919;
+	width: max-content;
+	padding: 1.25rem;
+}
+
+.footer-pages-content-grp.ft_diff p {
+	color: #fff;
+}
+
+.footer-pages-content-grp a {
+	color: #adff00;
+}
+/* Footer Pages CSS End */
