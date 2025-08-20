@@ -936,7 +936,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 10.375rem;
+    max-width: 9.375rem;
 }
 
 .social-icons li a {
@@ -991,7 +991,9 @@ hr {
     max-width: 20.625rem;
     line-height: 1.3;
 }
-
+.disclaimer{
+    border-top: 1px solid rgb(173 255 0/50%);
+}
 /* footer end  */
 
 
@@ -1532,7 +1534,110 @@ hr {
     transition: transform .5s ease;
     border-radius: 1.875rem;
 }
+.browse-sport {
+  /* background: #000; */
+  /* padding: 60px 20px; */
+  color: #fff;
+}
 
+.browse-sport h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.browse-sport .subtitle {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+
+.sport-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+@media (min-width: 768px) {
+  .sport-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .sport-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+.sport-card {
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: left;
+  position: relative;
+  transition: all 0.3s ease;
+  padding-bottom: 20px;
+  box-shadow: #adff00 0rem 0.1875rem 0.5rem;
+}
+
+
+.sport-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+
+.sport-card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 15px 15px 10px;
+  color: #fff;
+}
+
+.sport-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #bbb;
+  margin: 0 15px;
+}
+
+
+.sport-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 4px;
+  background: #adff00;
+  transition: width 0.4s ease;
+}
+
+.sport-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 0%;
+  width: 4px;
+  background: #adff00;
+  transition: height 0.4s ease;
+}
+
+.sport-card:hover::before {
+  width: 100%;
+}
+
+.sport-card:hover::after {
+  height: 100%;
+}
 /* Blog Page CSS End */
 
 
