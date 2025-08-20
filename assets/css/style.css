@@ -336,7 +336,7 @@ span.theme {
 }
 
 /* Butn CSS Start */
-  /* Button CSS End*/
+/* Button CSS End*/
 
 /* Header CSS Start */
 .sticky-header {
@@ -635,6 +635,7 @@ hr {
     line-height: 1.5;
     color: #fff;
 }
+
 /* Image Text CSS End */
 
 
@@ -643,39 +644,47 @@ hr {
     height: 20rem;
     width: 100%;
 }
+
 .slider_img {
     height: 100%;
     width: 100%;
 }
+
 .slick-track {
     display: flex;
     gap: 20px;
-    height: 100% !important; 
+    height: 100% !important;
 }
+
 .slider_content {
     padding: 1.25rem;
     text-align: center;
 }
+
 .slider_content p {
     font-size: 0.9375rem;
     min-height: 100px;
 }
+
 .slider_content h3 {
     text-transform: uppercase;
     line-height: 1.4;
     font-size: 1.5rem;
     font-weight: 600;
 }
+
 .img.slick-slide {
     padding: 1.25rem;
-border: 1px solid #adff00;
+    border: 1px solid #adff00;
     height: 100%;
     border-radius: 1.875rem;
 }
+
 .slick-list.draggable {
     min-height: 640px;
 }
-.hide{
+
+.hide {
     overflow: hidden;
 }
 
@@ -689,35 +698,38 @@ border: 1px solid #adff00;
     background-color: rgba(0 0 0/70%);
     background-blend-mode: multiply;
 }
+
 .home_start_journey_wrap p {
     font-size: 1.5rem;
 }
+
 /* Home Start Journey CSS End */
 
 /* Home Why US CSS Start */
 .service-item {
-	text-align: center;
-	padding: 1.875rem 2.1875rem 1.125rem;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	box-shadow: #adff00 0rem 0.1875rem 0.5rem;
-	margin-bottom: 1.875rem;
-	border-radius: 1.875rem;
-	height: 100%;
+    text-align: center;
+    padding: 1.875rem 2.1875rem 1.125rem;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    box-shadow: #adff00 0rem 0.1875rem 0.5rem;
+    margin-bottom: 1.875rem;
+    border-radius: 1.875rem;
+    height: 100%;
 }
 
 .service-item:hover {
-	background: #adff00;
+    background: #adff00;
 }
 
 .service-item:hover h4 {
-	color: #000;
+    color: #000;
 }
 
 .service-item:hover p {
-	color: #000;
+    color: #000;
 }
+
 .service-item h4 {
     color: #fff;
     font-size: 1.375rem;
@@ -730,31 +742,31 @@ border: 1px solid #adff00;
 }
 
 .service_icon {
-	width: 100%;
+    width: 100%;
 }
 
 .service-item p {
-	color: #707079;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+    color: #707079;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .service_icons {
-	height: 4rem;
-	margin-bottom: 1.25rem;
+    height: 4rem;
+    margin-bottom: 1.25rem;
 }
 
 .service_icon2 {
-	display: none;
+    display: none;
 }
 
 .service-item:hover .service_icon2 {
-	display: block;
+    display: block;
 }
 
 .service-item:hover .service_icon1 {
-	display: none;
+    display: none;
 }
 
 /* Home Why US CSS Start */
@@ -828,6 +840,7 @@ border: 1px solid #adff00;
 .newsletter-wrap input:focus {
     border-bottom: 1px solid #adff00;
 }
+
 .newsletter-wrap input::-ms-input-placeholder {
     color: #fff;
 }
@@ -969,8 +982,9 @@ border: 1px solid #adff00;
     width: 100%;
     fill: #fff;
 }
-.social-icons li a:hover svg{
-fill: #adff00;
+
+.social-icons li a:hover svg {
+    fill: #adff00;
 }
 
 .footer-logo h4 {
@@ -988,19 +1002,78 @@ fill: #adff00;
 .banner.sub_banner .banner_content h1 {
     font-size: 2.5rem;
 }
+
 .banner.sub_banner .banner_content p {
     font-size: 1rem;
     font-weight: 500;
 }
-.banner.sub_banner{
+
+.banner.sub_banner {
     height: 40.875rem;
 }
 
-.banner.sub_banner  .banner_wrap {
+.banner.sub_banner .banner_wrap {
     margin-top: 5rem;
 }
 
+.pages_brand_sec table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
+.pages_brand_sec th,
+.pages_brand_sec td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
 
+.pages_brand_sec td {
+    border: 1px solid #adff00;
+    color: #fff;
+}
 
+.pages_brand_sec th {
+    background: #adff00;
+    color: #000;
+}
+
+.pages_brand_sec td:first-child {
+    text-align: left;
+}
+
+.pages_brand_sec a {
+    color: #adff00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pages_brand_sec .stars {
+    color: gold;
+    font-size: 16px;
+}
+
+.pages_brand_sec .free {
+    color: #06ff06;
+    font-weight: bold;
+}
+
+.pages_brand_sec .paid {
+    color: red;
+    font-weight: bold;
+}
+
+.pages_key_wrap ul li {
+    margin-left: 1.2rem;
+    list-style-type: disc;
+}
+.pages_key_wrap ul li p{
+font-size: 1.1rem;
+}
+
+.pages_key_wrap ul li::marker{
+color: #adff00;
+}
 /* NFL CSS End */
