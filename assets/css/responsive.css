@@ -109,6 +109,9 @@
     height: 25rem;
     margin-bottom: 1.5625rem;
 }
+.blog_desc_img {
+    height: 30.25rem;
+}
 }
 
 @media (max-width: 767px) {
@@ -362,5 +365,8 @@
 }
 .blog_desc h2 {
     font-size: 1.4rem;
+}
+.blog_desc_img {
+    height: 25.25rem;
 }
 }
