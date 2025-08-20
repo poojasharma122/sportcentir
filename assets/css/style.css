@@ -1348,6 +1348,7 @@ hr {
     box-shadow: #adff00 1.95px 1.95px 2.6px;
     transition: all 0.3s ease-in-out;
     height: 100%;
+    border-radius: 1.875rem;
 }
 
 .after_banner_text:hover {
@@ -1365,9 +1366,10 @@ hr {
 
 .about_img_txt_content h2 {
     font-size: 2rem;
-    color: #fff;
+    color: #adff00;
     margin-bottom: 1.25rem;
     line-height: 2rem;
+    line-height: 1.4;
 
 }
 
@@ -1545,13 +1547,12 @@ hr {
     overflow: hidden;
     border-radius: 1.875rem;
     position: relative;
-    border:3px solid #adff00;
 }
 
 .blog_desc {
     padding: 2.5rem 1.875rem;
     border-radius: 20px;
-    box-shadow: #191919 0px 3px 8px;
+    box-shadow: #adff00 0px 3px 8px;
     background: #111111;
 }
 
@@ -1583,8 +1584,11 @@ hr {
 .blog_desc h2 {
     font-size: 2rem;
     color: #adff00;
+    line-height: 1.3;
 }
-
+.blog_description_sec {
+    margin-top: 5rem;
+}
 /* Blog Description Pages CSS End*/
 
 

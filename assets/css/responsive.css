@@ -212,6 +212,12 @@
 .footer-pages-wrap {
     padding: 1.25rem 0.625rem;
 }
+.about_img_txt_content {
+    padding: 2rem 0.625rem  0 0;
+}
+.blog_desc h2 {
+    font-size: 1.8rem;
+}
 }
 
 
@@ -274,6 +280,15 @@
 .blog_page_card .what_we_offer_content h5 {
     font-size: 1.1rem;
 }
+.about_img_txt_content p {
+    font-size: 1.1rem;
+}
+.blog_desc {
+    padding: 2.5rem 0.625rem;
+}
+.blog_desc h2 {
+    font-size: 1.6rem;
+}
 }
 
 @media screen and (max-width:480px) {
@@ -335,5 +350,17 @@
 }
 .blog_page_card .what_we_offer_content h5 {
     font-size: 1rem;
+}
+.after_banner_text p {
+    font-size: 1rem;
+}
+.about_img_txt_content p {
+    font-size: 1rem;
+}
+.left_section {
+    padding: 1rem;
+}
+.blog_desc h2 {
+    font-size: 1.4rem;
 }
 }
