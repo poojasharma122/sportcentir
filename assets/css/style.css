@@ -1220,3 +1220,144 @@ border-radius: 1.875rem;
 	color: #adff00;
 }
 /* Footer Pages CSS End */
+
+/* Contact CSS Start */
+
+.contact-info-box {
+    background: #fff;
+    padding: 20px 25px;
+    border-left: 5px solid #adff00;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 41%);
+}
+
+.contact-info-box i {
+    color: #adff00;
+    margin-right: 10px;
+}
+
+.contact-info-box a {
+    color: #000;
+    text-decoration: none;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+
+.contact-info-box svg {
+    width: 25px;
+    height: 25px;
+}
+
+.left_section {
+    box-shadow: #adff00 0px 3px 8px;
+    padding: 20px;
+    border-radius: 15px;
+    height: 100%;
+    background: #fff;
+}
+
+.right_section {
+    box-shadow: #adff00 0px 3px 8px;
+    padding: 20px;
+    border-radius: 15px;
+    height: 100%;
+    background: #fff;
+}
+
+.outdoor_content .row .col-lg-6 {
+    padding: 0;
+}
+
+.second_heading h5 {
+    color: #000;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.right_section p {
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.contact_end p {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.contact_heading h5 {
+    color: #fff;
+    font-size: 27px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+/* Contact CSS End */
+
+
+/* about page css start */
+
+/* after banner css start */
+
+.after_banner_text {
+    border: 1px solid #fff;
+    padding: 20px;
+    box-shadow: #adff00 1.95px 1.95px 2.6px;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+}
+
+.after_banner_text:hover {
+    transform: translateY(-7px);
+    border: 1px solid #adff00;
+}
+
+/* About CSS Start */
+
+.after_banner_text p {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.about_img_txt_content h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 2rem;
+
+}
+
+.about_img_txt_content{
+    height: 100%;
+    padding: 5rem 2rem;
+}
+
+.about_img_txt_content ul li {
+    position: relative;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.about_img_txt_content ul li::before {
+    position: absolute;
+    content: ".";
+    font-size: 60px;
+    left: -1px;
+    top: -18px;
+}
+
+.about_img_txt_content p {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+/* About CSS End */
+  
