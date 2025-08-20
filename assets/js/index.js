@@ -39,7 +39,7 @@ $(function () {
       pauseOnHover:true,
   responsive: [
     {
-      breakpoint: 991,
+      breakpoint: 1199,
       settings: {
         arrows: false,
         centerMode: false,

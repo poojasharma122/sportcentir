@@ -106,6 +106,7 @@
 }
 .platform_review_content {
     padding: 2rem 0 0 0;
+    text-align: center;
 }
 .faq_img_outer {
     height: 25rem;
@@ -114,6 +115,7 @@
 .blog_desc_img {
     height: 30.25rem;
 }
+
 }
 
 @media (max-width: 767px) {
