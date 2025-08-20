@@ -1239,10 +1239,24 @@ hr {
 /* Footer Pages CSS End */
 
 /* Contact CSS Start */
+.right_section input,
+.right_section textarea {
+    border: none;
+    border-bottom: 1px solid #919191;
+}
+
+.right_section input:focus,
+.right_section textarea:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: black;
+}
+
+
 .right_section .butn {
     color: #000;
     border-color: #000;
-}
+      }
 .right_section .butn:hover {
     border-color: #adff00;
 }
